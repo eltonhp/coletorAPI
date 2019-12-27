@@ -4,6 +4,9 @@ import lombok.*;
 
 import java.math.BigDecimal;
 
+/**
+ * @author Elton H. Paula
+ */
 @Data
 @Getter @Setter
 @Builder

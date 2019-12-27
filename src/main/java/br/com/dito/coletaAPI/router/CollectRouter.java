@@ -19,7 +19,6 @@ public class CollectRouter {
     private final CollectHandler collectHandler;
 
 
-
     public CollectRouter(CollectHandler collectHandler) {
         this.collectHandler = collectHandler;
     }

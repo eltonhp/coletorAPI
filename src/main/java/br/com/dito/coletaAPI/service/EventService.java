@@ -9,6 +9,9 @@ import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
+/**
+ * @author Elton H. Paula
+ */
 @Service
 public class EventService {
 

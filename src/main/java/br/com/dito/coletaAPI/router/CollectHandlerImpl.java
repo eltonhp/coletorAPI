@@ -16,6 +16,9 @@ import reactor.core.publisher.Mono;
 
 import static org.springframework.web.reactive.function.server.ServerResponse.notFound;
 
+/**
+ * @author Elton H. Paula
+ */
 @Service
 public class CollectHandlerImpl implements CollectHandler {
 

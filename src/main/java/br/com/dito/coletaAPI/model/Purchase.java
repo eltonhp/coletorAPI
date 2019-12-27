@@ -9,6 +9,9 @@ import org.springframework.core.annotation.Order;
 import java.math.BigDecimal;
 import java.util.List;
 
+/**
+ * @author Elton H. Paula
+ */
 @Data
 @Getter @Setter
 public class Purchase {

@@ -14,6 +14,9 @@ import java.util.stream.Collectors;
 
 import static org.springframework.http.MediaType.APPLICATION_JSON;
 
+/**
+ * @author Elton H. Paula
+ */
 @Service
 public class PurchaseService {
     private WebClient eventAPI = WebClient.create("https://storage.googleapis.com");

@@ -2,6 +2,9 @@ package br.com.dito.coletaAPI.util;
 
 import org.springframework.stereotype.Service;
 
+/**
+ * @author Elton H. Paula
+ */
 @Service
 public class Util {
 

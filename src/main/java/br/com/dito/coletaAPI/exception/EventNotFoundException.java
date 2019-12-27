@@ -1,5 +1,8 @@
 package br.com.dito.coletaAPI.exception;
 
+/**
+ * @author Elton H. Paula
+ */
 public class EventNotFoundException extends RuntimeException {
 
     public EventNotFoundException() {
