@@ -1,16 +1,16 @@
-# Coleta
+# ColetaAPI
 Esta API têm por objetivo coletar e armazenar dados de evento, cada 
 evento corresponde as informações de navegação dos usuários em um site.
 
-Este projeto foi gerado pelo [Spring Initializr](https://start.spring.io/) com as bibliotecas `spring-boot-starter-webflux`, h2, lombok e `spring-boot-starter-data-jpa`.
+Este projeto foi gerado pelo [Spring Initializr](https://start.spring.io/) com as bibliotecas `spring-boot-starter-webflux`, `h2`, `lombok` e `spring-boot-starter-data-jpa`.
 
 A biblioteca `spring-boot-starter-webflux` é um módulo do Spring Framework 5, que provê recursos para trabalhar com aplicações web reativas no lado do back-end.
-A biblioteca h2 é um módulo para trabalhar com banco de dados embarcado relacional escrito em java. 
+A biblioteca `h2` é um módulo para trabalhar com banco de dados embarcado relacional escrito em java. 
 E o `lombok` é uma API para simplificar o uso de get e set com o código mais limpo, está biblioteca foi usada no pacote model
 
 ## EndPoints
 
-* `event`: POST - Inseri um evento na base de dados;
+* `event`: POST - Inseri um evento na base de dados;  <br />
 Exemplo: 
 ````
 {
