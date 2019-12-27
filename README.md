@@ -29,11 +29,11 @@ localhost:8080/event/co
 ## Execução
 #### Executar a aplicação na máquina física:
 Abra o prompt de comando ou shell na raiz do projeto e faça a seguinte intrução:
-`./mvnw clean package && java -jar target/coletaAPI-0.0.1-SNAPSHOT.jar`
+`mvnw clean package && java -jar target/coletaAPI-0.0.1-SNAPSHOT.jar`
 
 #### Executar a aplicação em container docker:
 Faça conforme o exemplo acima:
-`./mvnw clean package && java -jar target/coletaAPI-0.0.1-SNAPSHOT.jar`, 
+`mvnw clean package && java -jar target/coletaAPI-0.0.1-SNAPSHOT.jar`, 
 em seguida crie a imagem docker com a seguinte instrução:
 `docker build -t dito/coletorAPI .`
 E por fim faça o seguinte comando para rodar a aplicação em um container docker:
