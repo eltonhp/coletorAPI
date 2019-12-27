@@ -25,7 +25,7 @@ Exemplo:
 localhost:8080/event/co
 ````
 * `timeline/purchases`: GET -  Retorna o autocomplete. <br />
-Exemplo: `localhost:8080/timeline/purchases`
+Exemplo: `localhost:8080/timeline/purchases`  <br />
 Esta requisição agrupa a lista de compras pelos eventos disponibilizado no endpoint https://storage.googleapis.com/dito-questions/events.json
 
 ## Execução
