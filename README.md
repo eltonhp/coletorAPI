@@ -21,6 +21,7 @@ Exemplo:
 
 
 * `event/:name`: GET - Busca os eventos por nome
+Exemplo: <br />
 ````
 localhost:8080/event/co
 ````
