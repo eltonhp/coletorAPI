@@ -1,4 +1,4 @@
-# ColetaAPI
+# ColetorAPI
 Esta API têm por objetivo coletar e armazenar dados de evento, cada 
 evento corresponde as informações de navegação dos usuários em um site.
 
