@@ -28,22 +28,6 @@ public class PurchaseService {
       return this.getPurchaseGroupByTransactionId(eventList);
     }
 
-    /**
-     * LinkedHashMap hashMap = null;
-     *
-     * hashMap.put("events", new ArrayList());
-     * hasMap.get("events").add(new LinkedHashMap());
-     * hasMap.get("events").get(0).put("event", "comprou-produto");
-     * hasMap.get("events").get(0).put("timestamp", new Date());
-     * hasMap.get("events").get(0).put("custom_data", new ArrayList());
-     * hasMap.get("events").get(0).get("custom_data").add(new LinkedHasMap());
-     * hasMap.get("events").get(0).get("custom_data").get(0).put("key", "product_name");
-     * hasMap.get("events").get(0).get("custom_data").get(0).put("value", "Camisa Azul");
-     * hasMap.get("events").get(0).get("custom_data").get(1).put("key", "transaction_id");
-     * hasMap.get("events").get(0).get("custom_data").get(1).put("value", "3029384");
-     * hasMap.get("events").get(0).get("custom_data").get(2).put("key", "product_price");
-     * hasMap.get("events").get(0).get("custom_data").get(2).put("value", "100");
-     */
 
     /**
      * criar uma lista de compras agrupado por transaction_Id
