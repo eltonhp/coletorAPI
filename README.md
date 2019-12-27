@@ -1,5 +1,5 @@
 # ColetorAPI
-Esta API têm por objetivo coletar e armazenar dados de evento, cada 
+Esta API têm por objetivo coletar e armazenar os dados de eventos, cada 
 evento corresponde as informações de navegação dos usuários em um site.
 
 Este projeto foi gerado pelo [Spring Initializr](https://start.spring.io/) com as bibliotecas `spring-boot-starter-webflux`, `h2`, `lombok` e `spring-boot-starter-data-jpa`.
