@@ -10,7 +10,7 @@ E o `lombok` é uma API para simplificar o uso de métodos gets e sets com o có
 
 ## EndPoints
 
-* `event`: POST - Inseri um evento na base de dados;  <br />
+* `event`: POST - Inseri um evento na base de dados.  <br />
 Exemplo: 
 ````
 {
@@ -20,8 +20,8 @@ Exemplo:
 ````
 
 
-* `event/:name`: GET - Busca os eventos por nome
-Exemplo: <br />
+* `event/:name`: GET - Busca os eventos por nome. <br />
+Exemplo: 
 ````
 localhost:8080/event/co
 ````
