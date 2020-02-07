@@ -32,7 +32,7 @@ Exemplo: `localhost:8080/timeline/purchases`
 
 ## Execução
 #### Executar a aplicação na máquina física:
-Abra o prompt de comando ou shell na raiz do projeto e faça a seguinte intrução:
+Abra o prompt de comando ou shell na raiz do projeto e faça a seguinte instrução:
 `mvnw clean package && java -jar target/coletaAPI-0.0.1-SNAPSHOT.jar`
 
 #### Executar a aplicação em container docker:
