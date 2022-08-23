@@ -40,5 +40,5 @@ Faça conforme o exemplo acima:
 `mvnw clean package && java -jar target/coletaAPI-0.0.1-SNAPSHOT.jar`, 
 em seguida crie a imagem docker com a seguinte instrução:
 `docker build -t dito/coletorAPI .`
-E por fim faça o seguinte comando para rodar a aplicação em um container docker:
+e por fim faça o seguinte comando para rodar a aplicação em um container docker:
 `docker run -p 8080:8080 -t dito/coletorAPI`
